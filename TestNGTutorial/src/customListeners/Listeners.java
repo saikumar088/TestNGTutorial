@@ -8,7 +8,7 @@ public class Listeners implements ITestListener {
 
 	@Override
 	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
+		
 		ITestListener.super.onTestStart(result);
 	}
 
@@ -24,7 +24,7 @@ public class Listeners implements ITestListener {
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
+		
 		ITestListener.super.onTestSkipped(result);
 	}
 
